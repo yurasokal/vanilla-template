@@ -25,6 +25,10 @@
   ],
   "author": "yurasokal",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurasokal/vanilla-template/issues"
+  },
+  "homepage": "https://github.com/yurasokal/vanilla-template#readme",
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
