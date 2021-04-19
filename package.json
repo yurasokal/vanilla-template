@@ -5,7 +5,8 @@
   "main": "/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build --out-dir dist --public-url ./ ./src/index.html",
+    "prebuild": "rm -rf ./docs",
+    "build": "parcel build --out-dir docs --public-url ./ ./src/index.html",
     "start": "parcel serve ./src/index.html --open",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix"
